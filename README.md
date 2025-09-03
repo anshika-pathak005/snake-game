@@ -17,12 +17,10 @@ This project closely follows a YouTube tutorial and does not include major custo
 ## 📂 Project Structure
 
 ```
-
 snake-game/
 ├── index.html   # Canvas and basic game container
 ├── style.css    # Page styling
 └── index.js     # Game logic (snake movement, food, scoring)
-
 ```
 
 ## 🚀 Installation / Usage
@@ -33,9 +31,8 @@ snake-game/
 4. Eat the red squares to grow longer and increase your score.  
 5. Try to beat your high score — it’s stored even if you refresh the page.  
 
-## 📸 Screenshot
-
-
+## 🎥 Demo
+<img src="./snake-game.gif" alt="Demo" width="700">
 
 ## 💡 What I Learned
 
