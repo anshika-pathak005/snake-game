@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snake Game</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="index.js"></script>
-</head>
-<body>
-    <h1>Snake Game</h1>
-    <canvas id="board"></canvas>
-</body>
+  </head>
+  <body>
+    <h1 id="game">Snake Game</h1>
+    <div
+      id="gameContainer"
+      style="position: relative; width: fit-content; margin: auto"
+    >
+      <canvas id="board"></canvas>
+      <button id="restartBtn">Restart Game</button>
+    </div>
+
+    <div id="instructions">👉 Swipe / Use Arrow Keys to Navigate</div>
+
+    <div id="mobile-warning">
+      <p>⚠️ Please switch to desktop site to play the game</p>
+    </div>
+  </body>
 </html>
