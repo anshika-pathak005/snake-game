@@ -1,12 +1,62 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    overflow: hidden;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #222;
+  overflow: hidden;
 }
-h1{
-    /* margin-top: -8px; */
-    margin-bottom: 5px;
+h1 {
+  /* margin-top: -8px; */
+  color: white;
+  margin-bottom: 5px;
+}
+
+#instructions {
+  margin: 30px auto;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 9999;
+}
+
+#mobile-warning {
+  display: none;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+@media (max-width: 660px) {
+  #mobile-warning {
+    display: block;
+  }
+  #game,
+  #board,
+  #instructions,
+  #restartBtn {
+    display: none;
+  }
+}
+
+#restartBtn {
+  display: none;
+  position: absolute; /* Position over canvas */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for exact center */
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it is above canvas */
 }
