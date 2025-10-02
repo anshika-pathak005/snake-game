@@ -1,18 +1,16 @@
 # 🐍 Snake Game
 
 A classic Snake Game built with HTML, CSS, and JavaScript, created purely for fun and to practice working with canvas rendering, keyboard events, and game loops in JavaScript.
-
-This project closely follows a YouTube tutorial and does not include major custom improvements — it was made to learn the basics of game development logic in JS.
+### 🔗 [Live Demo](https://nimble-tanuki-a4ffe0.netlify.app/)
 
 ## ✨ Features
 
-- 🎮 Smooth gameplay with arrow key controls  
-- 🍎 Randomly generated food — every time the snake eats, it grows  
-- 🧮 Score tracking — current score displayed in real-time  
-- 🏆 High score saved using localStorage  
-- 💥 Game over detection when hitting walls or the snake’s own body  
-- 🎨 Canvas-based rendering for smooth drawing  
-- 😎 Fun game-over message displayed directly on the board  
+- 🎮 Playable on **desktop (arrow keys)** and **mobile (swipe controls)**
+- 🍎 Random food generation — snake grows when it eats
+- 🧮 Real-time score display with **high score saved** in localStorage
+- 💥 Game over detection when hitting walls or itself
+- 🔄 **Restart button** to quickly play again
+- 📱 Mobile-friendly instructions shown on screen
 
 ## 📂 Project Structure
 
